@@ -1,3 +1,11 @@
 *{
-    background-color: rgb(211, 184, 148);
+    background-color: hsl(42, 90%, 74%);
+}
+
+img{
+    width: 200px;
+    border-style: double;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 50%;
 }
