@@ -46,4 +46,15 @@ p{
     margin: 3%;
 }
 
+footer{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    border-style: groove;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 100px;
+}
 
