@@ -1,8 +1,8 @@
 *{
     background-color: hsl(43, 40%, 76%);
     font-family:'Times New Roman', Times, serif;
-   
-}
+   }
+
 @media only screen and (min-width: 600px) {
     main {
         display: grid;
@@ -12,23 +12,16 @@
     }
   }
 
-
-
-
-
 .two{ grid-column: 3;
     grid-row: 1 ;
-
 }
 
 .three{ grid-column: 1/2;
     grid-row: 1;
-
 }
 
 .four{ grid-column: 3;
     grid-row: 2;
-
 }
 
 .five{
@@ -42,22 +35,18 @@ img{
     border-color: black;
     border-width: 3px;
     border-radius: 50%;
-    padding: 5px;
-    
+    padding: 5px;    
 }
 
 figure{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-
     text-align: center;
 }
 
 .heading{
     font-family:'Courier New', Courier, monospace;
-     
-
 }
 
 a{
@@ -66,11 +55,9 @@ a{
 
 li{
     list-style-type: upper-roman;
-    color: blue;
-    
+    color: blue;    
     background-size: 200px;
     list-style-image: url('smoking-pipe.png');
-
 }
 
 p{
