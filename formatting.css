@@ -4,7 +4,33 @@
    
 }
 
-body{ 
+main{ display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+
+
+
+.two{ grid-column: 6;
+    grid-row: 1 ;
+
+}
+
+.three{ grid-column: 1/5;
+    grid-row: 1;
+
+}
+
+.four{ grid-column: 6;
+    grid-row: 2;
+
+}
+
+.five{
+    grid-column: 1/5;
+    grid-row: 2;
+}
 
 img{
     width: 200px;
@@ -25,7 +51,9 @@ figure{
 }
 
 .heading{
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+     
+
 }
 
 a{
